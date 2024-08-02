@@ -11,7 +11,7 @@
     font-style:normal;
     padding: 10px;
     height: 20px;
-    width: 100%;
+    width: 96.5%;
     background: linear-gradient(to RIGHT,rgb(49, 15, 221),rgb(0, 0, 0));
 }
 .logo{
@@ -169,12 +169,15 @@
 
 
 
-    .kanyakumari {
-    position: absolute;
-    top: 180%;
-    left: 4%;
-    width: 200%;  
-}
+
+
+
+
+
+
+
+
+ 
 
 .kanyakumari {
     position: absolute;
@@ -257,6 +260,85 @@
     transform: scale(1.1);
 }
 
+.tiruvarur{
+    position: absolute;
+    top: 220%;
+    left: 4%;
+    width: 250%;
+    
+}
+.tiruvarur img {
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #000000;
+    transition: transform 0.3s ease; /* Add transition for smooth zoom */
+}
+
+.tiruvarur img:hover {
+    transform: scale(1.1); /* Zoom in the image */
+}
+
+.srirangam{
+    position: absolute;
+    top: 220%;
+    left: 45%;
+    width: 250%;
+
+}
+.srirangam img{
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #000000;
+    transition: transform 0.3s ease;
+
+}
+.srirangam img:hover {
+    transform: scale(1.1); 
+}
+.thiruvannamalai{
+    position: absolute;
+    top: 220%;
+    left: 87%;
+}
+.thiruvannamalai img{
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px;
+    transition:transform 0.3s ease;
+
+}
+.thiruvannamalai img:hover{
+    transform: scale(1.1);
+}
+.kumbakonam{
+    position: absolute;
+    top: 220%;
+    left: 128%;
+}
+.kumbakonam img{
+    border-radius: 13px ;
+    box-shadow: 4px 7px 7px 0px;
+    transition:transform 0.3s ease;
+}
+.kumbakonam img:hover{
+    transform: scale(1.1);
+}
+.kodaikanal{
+    position: absolute;
+    top:220%;
+    left: 167.5%;
+}
+.kodaikanal img{
+    border-radius: 13px ;
+    box-shadow: 4px 7px 7px 0px;
+    transition:transform 0.3s ease;
+}
+.kodaikanal img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
     
     .thiru{
         position: absolute;
@@ -300,7 +382,7 @@
         position:absolute;
         width: 53.5%;
         top:24%;
-        height: 100%;
+        height: 120%;
     }
     .container{
         position: absolute;
@@ -349,7 +431,7 @@
         position: absolute;
         padding: 4%;
         background-color: #000000;
-        top:240%;
+        top:270%;
         left: -2%;
         width:198%;
     }
